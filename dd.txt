@@ -1,0 +1,35 @@
+'district','address','village','LandMark',j.jpg,p.jpg,a.jpg,'sbi','venkatagiri','ifsc0001','chandni','3445566544','7702878700','DC0001'
+
+SELECT TOP (1000) [ID]
+      ,[UserID]
+      ,[MobileNo]
+      ,[FirstName]
+      ,[LastName]
+      ,[FatherName]
+      ,[Email]
+      ,[Password]
+      ,[AadharNo]
+      ,[PanNo]
+      ,[DOB]
+      ,[District]
+      ,[Mandal]
+      ,[BusinessLocation]
+      ,[Address]
+      ,[Village]
+      ,[LandMark]
+      ,[ProfilePic]
+      ,[BankProof]
+      ,[AddressProof]
+      ,[BankName]
+      ,[BranchName]
+      ,[IFSCCode]
+      ,[AccountName]
+      ,[AccountNo]
+      ,[BankMobileNo]
+      ,[BCCode]
+  FROM [DgWallet].[dbo].[tblBC]
+
+
+insert into dbo.tblBC values ('7702878700','chandini','shaik','Ramesh','surisettione@gmail.com','123456',12345678912,1234567891,'1993-08-08','district','Mandal','BusinessLocation','address','village','LandMark',CAST('wahid' AS VARBINARY(MAX)),CAST('wahid' AS VARBINARY(MAX)),CAST('wahid' AS VARBINARY(MAX)),'sbi','venkatagiri','ifsc0001','chandni','3445566544','7702878700','DC0001')
+
+http://localhost:63958/api/DC/1
